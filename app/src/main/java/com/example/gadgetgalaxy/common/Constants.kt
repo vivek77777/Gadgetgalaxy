@@ -3,7 +3,7 @@ package com.example.gadgetgalaxy.common
 object Constants {
     const val BASE_URL = "https://api.canerture.com/ecommerce/"
 
-    const val STORE = "taptaze"
+    const val STORE = "gadgetgalaxy"
 
     object Endpoint {
         const val GET_ALL_PRODUCTS = "get_products.php"
