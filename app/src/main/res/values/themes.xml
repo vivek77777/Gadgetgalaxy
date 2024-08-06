@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.gadgetgalaxy" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.gadgetgalaxy" parent="Base.Theme.gadgetgalaxy">
+        <item name="backgroundTint">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="splashStyle" parent="Base.Theme.gadgetgalaxy.">
+        <item name="android:windowFullscreen">true</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+
+    <style name="textViewRegular">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
